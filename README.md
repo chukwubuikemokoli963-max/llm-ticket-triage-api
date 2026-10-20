@@ -18,3 +18,6 @@ curl -i -X POST http://localhost:8000/triage \
   -H "Content-Type: application/json" \
   -d '{"text": ""}'
 ```
+
+## Stage 2 Observations (Prompt v1)
+When testing `gemma3:1b` with `prompts/triage-v1.md` across three real inputs (technical bug, account lockout, and an off-topic message), the model followed the field names and closed enum lists accurately and dropped confidence below 0.5 for the off-topic input. However, `gemma3:1b` frequently wraps its JSON response inside markdown code fences (` ```json ... ``` `), proving why raw model output cannot be trusted without Stage 3 parsing and schema validation.
