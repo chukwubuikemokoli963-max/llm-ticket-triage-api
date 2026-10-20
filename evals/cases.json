@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "input": "I was charged twice for invoice #4029. Please reverse the duplicate charge.",
+    "expected_category": "billing",
+    "expected_urgency": "high"
+  },
+  {
+    "id": 2,
+    "input": "The API returns a 500 internal server error when uploading SVG files.",
+    "expected_category": "technical",
+    "expected_urgency": "high"
+  },
+  {
+    "id": 3,
+    "input": "I cannot log in because my two-factor authentication authenticator app is reset.",
+    "expected_category": "account",
+    "expected_urgency": "high"
+  },
+  {
+    "id": 4,
+    "input": "Would love an option to schedule automated PDF reports every Monday morning.",
+    "expected_category": "feature_request",
+    "expected_urgency": "low"
+  },
+  {
+    "id": 5,
+    "input": "Where can I download the VAT receipt for last month's subscription payment?",
+    "expected_category": "billing",
+    "expected_urgency": "normal"
+  },
+  {
+    "id": 6,
+    "input": "The page load speed on the customer dashboard takes over 15 seconds today.",
+    "expected_category": "technical",
+    "expected_urgency": "normal"
+  },
+  {
+    "id": 7,
+    "input": "Good morning team, hope you are all having a wonderful week ahead!",
+    "expected_category": "other",
+    "expected_urgency": "normal"
+  },
+  {
+    "id": 8,
+    "input": "I am not sure if this is a bug or if I clicked the wrong menu option yesterday.",
+    "expected_category": "other",
+    "expected_urgency": "normal"
+  }
+]
